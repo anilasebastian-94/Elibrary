@@ -3,7 +3,7 @@ package com.ElibraryDevelopment.Elibrary.Security;
 import com.ElibraryDevelopment.Elibrary.SpringApplicationContext;
 
 public class SecurityConstants {
-    public static final String SIGN_UP_URL = "/elibrary/users/adduser";
+    public static final String SIGN_UP_URL = "/elibrary/adduser";
     public static final long EXPIRATION_TIME = 864000000;
     public static final long EMAIL_EXPIRATION_TIME = 600000;
     public static final String TOKEN_PREFIX = "Bearer ";
