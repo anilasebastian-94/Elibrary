@@ -7,6 +7,7 @@ public enum Messages {
     FAILED_DB_SAVE("Saving to Database failed! please try again."),
     TOKEN_NOT_FOUND("Given token is corrupted"),
     EMAIL_TOKEN_EXPIRED("Token expired! Try to generate a new email verification link."),
+    PASSWORD_TOKEN_EXPIRED("Token expired! Try to generate new passwword reset link."),
     DELETE_SUCCESS("Account deleted successfully."),
     DEACTIVATE_SUCCESS("Account Deactivated successfully."),
     ACTIVATE_SUCCESS("Account activated successfully."),

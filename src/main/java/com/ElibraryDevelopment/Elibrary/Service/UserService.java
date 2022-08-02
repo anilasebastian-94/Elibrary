@@ -12,4 +12,10 @@ public interface UserService extends UserDetailsService {
     UserDto fetchUser(String userId) throws ClientSideException;
     UserDto updateUser(String userId, UserDto user) throws ClientSideException;
     List<UserDto> getUsers(int page, int limit);
+    void deleteUser(String id) throws ClientSideException;
+    boolean verifyEmailToken(String token) throws ClientSideException;
+    Boolean requestPasswordReset(String email) throws ClientSideException;
+    Boolean verifyPasswordResetToken(String token, String newPassword, String repeatPassword) throws ClientSideException;
+
+    Boolean requestEmailResend(String email) throws ClientSideException;
 }
